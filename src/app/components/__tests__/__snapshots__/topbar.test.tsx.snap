@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopBar /> should match snapshot 1`] = `
+<div
+  className="flex justify-end"
+>
+  <Timer
+    seconds={60}
+  />
+  <Score
+    currentScore={0}
+    currentUser={
+      Object {
+        "id": -1,
+        "ip_addr": "",
+        "points": 0,
+        "timestamp": "",
+      }
+    }
+    setCurrentScore={Object {}}
+    setCurrentUser={Object {}}
+    setVotingEnabled={0}
+    votingEnabled={false}
+  />
+</div>
+`;
